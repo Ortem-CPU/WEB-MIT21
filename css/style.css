@@ -1,0 +1,124 @@
+:root{
+    --color-primary: #581825;
+    --color-text: #212124;
+    --color-surface: #ffffff;
+    --color-background: #F7F6F3;
+}
+
+body{
+    background-color: var(--color-background);
+    font-family: Arial, sans-serif;
+}
+body::before::after{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ffffff87;
+    h1{
+        text-align: center; 
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    nav{
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    }
+    nav a{
+        text-decoration: none;
+        color: var(--color-primary);
+        padding: 10px;
+    }
+    nav a:hover{
+        color: #ff00009f;
+        transition: 0.3s;
+    }
+}
+
+.about{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    p{
+        font-size: 18px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-text);
+    }
+
+}
+.services{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+        
+    }
+    p#main-text {
+        font-size: 18px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        color: #212124;
+    }
+}
+
+.portfolio{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    .portfolio-images{
+        img{
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px #888888;
+        }
+        img:hover{
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    a:hover{
+        color: #ff00d09f;
+        transition: 0.3s;
+        }
+}
+
+contact{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    p{
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+
+footer{
+    background-color: #6f6f6f36;
+    p{
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        color: var(--color-text);
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
