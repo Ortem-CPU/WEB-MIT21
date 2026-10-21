@@ -1,0 +1,22 @@
+# Встановлені npm-пакети
+node_modules/ 
+
+# Кеш Sass-пакетів
+.sass-cache/
+
+# Source map файли 
+*.css.map
+
+# Журнали помилок npm, yarn та pnpm
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Налаштування редакторів
+.vscode/
+.idea/
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
