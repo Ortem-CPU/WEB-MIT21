@@ -1,0 +1,228 @@
+:root{
+    --color-primary: #581825;
+    --color-text: #212124;
+    --color-surface: #ffffff;
+    --color-background: #F7F6F3;
+    --radius: 12px;
+    --space: 16px;
+
+}
+
+body{
+    background-color: var(--color-background);
+    font-family: Arial, sans-serif;
+}
+body::before::after{
+    box-sizing: border-box;
+}
+
+header{
+    justify-content: space-between;
+    h1{
+        text-align: center; 
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    nav{
+
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+    }
+    nav a{
+        text-decoration: none;
+        color: var(--color-primary);
+        padding: 10px;
+    }
+    nav a:hover{
+        color: #ff00009f;
+        transition: 0.3s;
+    }
+}
+
+.about{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    p#about-text {
+        font-size: 18px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        color: var(--color-text);
+    }
+    p{
+        font-size: 18px;
+        padding: 0;;
+        font-family: Arial, sans-serif;
+        color: var(--color-text);
+    }
+    
+.halls-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;              /* відстань між картками */
+  max-width: 1920px;      /* розширює блоки по ширині екрана */
+  margin: 40px auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+/* Окрема картка */
+.hall-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 40px 32px;     /* збільшений внутрішній простір навколо тексту */
+  min-height: 240px;      /* збільшує висоту карток */
+  border-radius: 16px;
+  border: 1px solid #581825;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hall-card h3 {
+  color: #581825;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 24px;        /* більший заголовок */
+  text-align: center;
+}
+
+.hall-card p {
+  color: #333333;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+}
+.services{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+        
+    }
+    p#main-text {
+        font-size: 18px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        color: #212124;
+    }
+}
+
+.portfolio{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    p{
+        padding: 10px;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        color: #212124;
+    }
+    .portfolio-images{
+        img{
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 10px 10px 5px #888888;
+        }
+        img:hover{
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+    a:hover{
+        color: #ff00d09f;
+        transition: 0.3s;
+        }
+}
+
+.order {
+  padding: 60px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.order h2 {
+  color: #581825;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+p{
+  color: #666666;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.form-field {
+  margin-bottom: 12px;
+}
+
+.request-form label {
+  display: grid;
+}
+
+.request-form input,
+.request-form select,
+.request-form textarea {
+  display: flexbox;
+  width: 320px;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.request-form button {
+  padding: 8px 20px;
+  background-color: #581825;
+  color: white;
+  border: none;
+  cursor: pointer;  
+}
+  .request-form button:hover {
+    background-color: #ff00009f;
+    transition: 0.3s;
+    scale: 1.1;
+  }
+contact{
+    h2
+    {
+        text-align: center;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        color: var(--color-primary);
+    }
+    p{
+        text-align: center;
+        padding: 10px;
+        font-size: 24px;
+    }
+}
+
+footer{
+    background-color: #6f6f6f36;
+    p{
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        color: var(--color-text);
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+}
+
